@@ -50,6 +50,6 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     expect(productDetails('Alcool gel', 'Máscara')[1]).not.toMatchObject(productDetails('Alcool gel', 'Máscara')[0]);
 
     // Teste se os dois productIds terminam com 123.
-    //expect(productDetails()).toBe();
+    
   });
 });
